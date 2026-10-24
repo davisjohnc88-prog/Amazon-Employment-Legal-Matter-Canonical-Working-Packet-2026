@@ -14,3 +14,8 @@ node series/build/render.js /tmp/html series/batch-NN
 - `topics-log.md`: topics already covered, so each week picks something new.
 - `timeline/history-echoes.md`: maps series terms to entries in the history timeline [On the Bus or Off the Bus](https://claude.ai/artifact/U8XhxLs1m2Xs8o4ydrXA8k). Each weekly batch includes one history echo that links back to the timeline.
 - `timeline/public-safe-timeline.md`: Ohnnie's work timeline, de-identified, with each beat marked pattern-safe or counsel first. Don't post a counsel-first beat until an employment lawyer has cleared it.
+- `build/check.py`: the proof and fact-check, run on every batch before delivery. It uses no AI. It scans for employer terms, makes sure every number on a slide traces to evidence listed in `build/facts.tsv`, checks spelling (add real words to `build/wordlist.txt`), checks that text doesn't spill off any slide or overlap other text, and checks for the crisis line. It writes `batch-NN/CHECK-REPORT.md`. After it passes, the batch gets an editorial read for flow and design.
+
+```
+python3 series/build/check.py /tmp/html series/batch-NN
+```

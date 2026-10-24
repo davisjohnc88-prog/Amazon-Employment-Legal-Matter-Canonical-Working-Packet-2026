@@ -5,7 +5,7 @@
 **Rule for every post:** never name the employer. Say "my job," "my workplace," or "a large company."
 
 All the files are in this folder:
-- `carousels/` has five carousels. Each one comes as a **PDF** (upload this to LinkedIn as a "document" post) and as a folder of **PNG slides** (upload these to Instagram or Facebook as a carousel, up to 20 slides).
+- `carousels/` has six carousels. Carousel 00, "The whole map," is the bird's-eye view of the whole series. Pin it to the top of your profile. Each one comes as a **PDF** (upload this to LinkedIn as a "document" post) and as a folder of **PNG slides** (upload these to Instagram or Facebook as a carousel, up to 20 slides).
 - `posts/` has eleven single-image posts.
 - Every image is 1080 × 1350 (4:5), the size Instagram and LinkedIn show largest in the feed.
 
@@ -26,6 +26,7 @@ Day 1 is the day Part 1 goes live on Substack. Post in your best time window, us
 | Day | Post | Platform | Pushes |
 |---|---|---|---|
 | Before launch (optional, tonight) | p09 "Back tomorrow" | IG, FB, Threads | Real-time trust |
+| Day 1, first | Carousel 00 "The whole map" (pin it) | IG, LinkedIn (PDF) | The whole series |
 | 1 | p10 "I'm writing it all down" | All | Substack launch |
 | 1 | Carousel 01 "You're not crazy" | IG, LinkedIn (PDF) | Part 1 |
 | 2 | p02 Gaslighting | IG, Threads | Series |
@@ -51,6 +52,17 @@ Day 1 is the day Part 1 goes live on Substack. Post in your best time window, us
 Each caption below is a starting draft. Make it yours. The hashtags are a mix of big tags and niche tags; use 3–5 on IG and 0–3 on LinkedIn.
 
 **Core hashtags:** #workplacebullying #toxicworkplace #narcissisticabuse #gaslighting #scapegoat #mentalhealthatwork #DARVO #healingjourney #youarenotalone #neurodiversity
+
+### Carousel 00: The whole map (pin this one)
+> For about four centuries, institutions sorted people with one question: can this person earn their keep? I researched that history. Then I recognized it at work.
+>
+> This is the map for the whole series: the history, the vocabulary, and my story. Every week goes one layer deeper.
+>
+> Not the same harm. The same playbook. Link in bio.
+>
+> #workplacebullying #neurodiversity #disabilityhistory #autism #institutionalbetrayal
+
+**Alt text:** A 9-slide carousel. It names the question "Can this person earn their keep?", shows a short timeline (1835 Quetelet's "average man," 1883 "eugenics" coined, 1905 Binet's scale, 1927 Buck v. Bell, 1990 the ADA), compares old sorting tools to workplace ones, gives the 44% victimization rate for people with autism, notes the self-advocacy movement, and lists upcoming topics.
 
 ### Carousel 01: You're not crazy. It has a name.
 > I'm the youngest of nine, and I was the family scapegoat. I did years of healing, and life got better everywhere except at work. That's how I knew where the harm was coming from.
@@ -153,6 +165,7 @@ Each seed has a working title, a hook, an outline, and a **prompt for you** to w
 ## Sources used in this batch
 
 - Workplace Bullying Institute, [2024 U.S. Workplace Bullying Survey](https://workplacebullying.org/2024-wbi-us-survey/): 32.3% directly bullied, 52.2M workers, 74.8M affected, 72% aware, 75% bully acted alone, 55% bosses, 29% peers, 62% of targets lost their jobs vs. 27% of perpetrators facing consequences, 2% coworker intervention, 87% support for a new law.
+- Quetelet (1835), Galton (1883), Binet and Simon (1905), *Buck v. Bell* (1927), the ADA (1990), Sinclair's "Don't Mourn for Us" (1993), and Milton (2012): all checked in `notes/factcheck/fact-check-full.md`, the report's fact check.
 - Trundle et al. (2023), *Trauma, Violence, & Abuse*, [doi:10.1177/15248380221093689](https://doi.org/10.1177/15248380221093689): 34 studies; pooled 44% overall victimization, 47% bullying; high heterogeneity.
 - Harsey & Freyd (2020), [doi:10.1080/10926771.2020.1774695](https://doi.org/10.1080/10926771.2020.1774695): DARVO lowers victim credibility, and a short explanation of DARVO reduces that effect.
 - Smith & Freyd (2014), "Institutional betrayal," *American Psychologist* 69(6), [doi:10.1037/a0037564](https://doi.org/10.1037/a0037564).
@@ -160,3 +173,9 @@ Each seed has a working title, a hook, an outline, and a **prompt for you** to w
 - Term origins: Freyd (1997) for DARVO; Bateson et al. (1956) for the double bind; the 1938 play *Gas Light* for gaslighting.
 
 The research items above were fact-checked earlier in the project (`notes/factcheck/fact-check-full.md`), and I checked the WBI numbers against WBI's own page today.
+
+---
+
+## Review
+
+This batch passed the scripted check (`CHECK-REPORT.md`): no employer terms, every number traced to a source, spelling, layout, and the crisis line. It also got an editorial read for flow and design.

@@ -147,7 +147,8 @@ def slide(s, i, n):
         rows = "".join(f'<div class="row"><div class="lab">{l}</div><div class="track"><div class="fill {c}" style="width:{v}%">{v}%</div></div></div>' for l, v, c in s["rows"])
         return f'''<section class="slide compare"><div class="pad"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2>{rows}<div class="note">{s['note']}</div>{src(s.get('source'))}</div>{foot(i,n)}</section>'''
     if t == "map":
-        cells = '<div class="hd">At home</div><div></div><div class="hd">At work</div>' + "".join(f'<div class="a">{a}</div><div class="ar">→</div><div class="b">{b}</div>' for a, b in s["rows"])
+        h1, h2 = s.get("heads", ["At home", "At work"])
+        cells = f'<div class="hd">{h1}</div><div></div><div class="hd">{h2}</div>' + "".join(f'<div class="a">{a}</div><div class="ar">→</div><div class="b">{b}</div>' for a, b in s["rows"])
         return f'''<section class="slide map"><div class="pad"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2><div class="grid">{cells}</div></div>{foot(i,n)}</section>'''
     if t == "ladder":
         r = "".join(f'<div class="rung"><div class="t">{a}</div><div class="d">{b}</div></div>' for a, b in s["rungs"])

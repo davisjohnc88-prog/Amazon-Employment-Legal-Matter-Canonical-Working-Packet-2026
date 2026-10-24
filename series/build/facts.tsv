@@ -1,0 +1,49 @@
+# token	evidence file (relative to series/build, or /abs path)	text that must appear in it
+# Every number on a slide must be listed here. Use "-" as the file for numbers that aren't facts (slide numbers, minutes on the ladder).
+32.3%	evidence/wbi-2024.md	32.3% of adult Americans
+52.2 million	evidence/wbi-2024.md	52.2 million workers
+72%	evidence/wbi-2024.md	72% are aware
+74.8M	evidence/wbi-2024.md	74.8 million
+75%	evidence/wbi-2024.md	75% said bully acted alone
+29%	evidence/wbi-2024.md	29% of perpetrators were peers
+55%	evidence/wbi-2024.md	most frequent rank, 55%
+62	evidence/wbi-2024.md	62% of losing their jobs
+27	evidence/wbi-2024.md	(27% vs. 62%)
+2%	evidence/wbi-2024.md	support for targets (2%)
+87%	evidence/wbi-2024.md	support (87%)
+2024	evidence/wbi-2024.md	WBI 2024
+44%	/mnt/project-files/notes/factcheck/fact-check-full.md	pooled 44% overall
+47%	/mnt/project-files/notes/factcheck/fact-check-full.md	bullying 47%
+34	/mnt/project-files/notes/factcheck/fact-check-full.md	34 studies
+2023	/mnt/project-files/notes/factcheck/fact-check-full.md	24(4), 2282–2296 is correct
+1835	/mnt/project-files/notes/factcheck/fact-check-full.md	Quetelet, 1835
+1883	/mnt/project-files/notes/factcheck/fact-check-full.md	1883 | "Eugenics" coined
+1905	/mnt/project-files/notes/factcheck/fact-check-full.md	the scale with Simon in 1905
+1927	/mnt/project-files/notes/factcheck/fact-check-full.md	buck-v-bell-1927
+1938	/mnt/project-files/notes/factcheck/fact-check-full.md	premiered in December 1938
+1956	evidence/citations.md	(1956). Toward a theory
+1990	/mnt/project-files/notes/factcheck/fact-check-full.md	signed the Americans with Disabilities Act
+1993	/mnt/project-files/notes/factcheck/fact-check-full.md	1993-07 | "Don't Mourn for Us"
+1997	/mnt/project-files/notes/factcheck/fact-check-full.md	1997 | DARVO named
+2012	/mnt/project-files/notes/factcheck/fact-check-full.md	2012 | Double empathy problem
+2014	/mnt/project-files/notes/factcheck/fact-check-full.md	Smith & Freyd 2014
+2020	/mnt/project-files/notes/factcheck/fact-check-full.md	Harsey & Freyd 2020
+2007	evidence/citations.md	(2007). Mistakes Were Made
+988	evidence/citations.md	988 is the U.S. Suicide
+400	/mnt/project-files/notes/factcheck/essay-draft-2026-10-08.md	For about four centuries
+00	-	slide number
+01	-	slide number
+02	-	slide number
+03	-	slide number
+04	-	slide number
+05	-	slide number
+06	-	slide number
+07	-	slide number
+08	-	slide number
+09	-	slide number
+1	-	small count
+2	-	small count
+10	-	minutes on the ladder / count
+20	-	minutes on the ladder
+30	-	minutes on the ladder
+60	-	minutes on the ladder
