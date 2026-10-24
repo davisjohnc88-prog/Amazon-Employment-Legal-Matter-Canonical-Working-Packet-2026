@@ -17,7 +17,7 @@ const fs = require('fs'), path = require('path');
         const sr = s.getBoundingClientRect();
         const foot = s.querySelector('.foot');
         const fr = foot ? foot.getBoundingClientRect() : null;
-        s.querySelectorAll('h1,h2,p,li,.def,.q,.s,.sub,.label,.num,.lab,.d,.t,.a,.b,.f,.c,.note,.source,.b1,.b2,.body2,.lede,.small,.mini').forEach(el => {
+        s.querySelectorAll('h1,h2,h3,p,li,.tag,.cn,.yr,.kick,.span,.legend,.who,.def,.q,.s,.sub,.label,.num,.lab,.d,.t,.a,.b,.f,.c,.note,.source,.b1,.b2,.body2,.lede,.small,.mini').forEach(el => {
           if (foot && foot.contains(el)) return;
           const r = el.getBoundingClientRect();
           if (r.width === 0 || !el.textContent.trim()) return;

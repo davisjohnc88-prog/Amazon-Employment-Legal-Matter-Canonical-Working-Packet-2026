@@ -4,10 +4,14 @@
 **Goal of this batch:** introduce the series, and send people to your first Substack articles.
 **Rule for every post:** never name the employer. Say "my job," "my workplace," or "a large company."
 
-All the files are in this folder:
-- `carousels/` has six carousels. Carousel 00, "The whole map," is the bird's-eye view of the whole series. Pin it to the top of your profile. Each one comes as a **PDF** (upload this to LinkedIn as a "document" post) and as a folder of **PNG slides** (upload these to Instagram or Facebook as a carousel, up to 20 slides).
-- `posts/` has eleven single-image posts.
-- Every image is 1080 × 1350 (4:5), the size Instagram and LinkedIn show largest in the feed.
+Every post has its own numbered folder, in posting order (the folder names follow the two-week schedule below). Each folder holds:
+- the slide images (**Slide 1.png**, **Slide 2.png**, and so on; a single post has **Slide.png**). Upload these to Instagram or Facebook as a carousel, up to 20 slides.
+- for carousels, **LinkedIn carousel.pdf**. Upload it to LinkedIn as a "document" post.
+- **Post wording.docx**: the caption to copy and paste, alt text for every image, sources for the first comment, and posting notes.
+
+Carousel 00, "The whole map," is the bird's-eye view of the whole series. Pin it to the top of your profile.
+
+Every image is 1080 × 1350 (4:5), the size Instagram and LinkedIn show largest in the feed.
 
 Before posting, read every slide out loud. Anything that doesn't sound like you, mark it, and I'll rebuild it. The source files are in `series/build/content.py`, so changing a word is a quick job.
 

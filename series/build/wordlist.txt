@@ -13,3 +13,5 @@ wbi
 substack
 carousel
 carousels
+alt
+docx
