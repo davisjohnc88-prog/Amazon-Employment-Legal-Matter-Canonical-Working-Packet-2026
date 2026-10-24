@@ -16,20 +16,19 @@
 
 | Series term (batch) | Timeline entry | Lane | The echo, in one line |
 |---|---|---|---|
-| Metrics as bullying / moving the goalposts (next: Metrics batch) | 1835 Quetelet; c. 1840 "Normal" enters English | measure | "Average" was a math idea before it became a rule people were punished for missing. |
-| Metrics as bullying | 1905 Binet; 1917 Army Alpha and Beta | measure | A test built to find who needs help gets used to sort who gets kept. |
-| The invisible standard / "you don't look autistic" | 1910 Goddard coins "moron"; 1961 the borderline line drawn at 85 | measure | Someone drew the line, and then people got sorted by it. |
+| Metrics as bullying / moving the goalposts (next: Metrics batch) | 1835 Quetelet's "average man"; c. 1840 "Normal" enters English | measure | "Average" was a math idea before it became a rule people were punished for missing. |
+| Metrics as bullying | 1905 Binet's scale, built to help; 1917 Army Alpha and Beta | measure | A test built to find who needs help gets used to sort who gets kept. |
+| The invisible standard / "you don't look autistic" | 1910 Goddard coins "moron"; 1961 The borderline line, drawn at 85 | measure | Someone drew the line, and then people got sorted by it. |
 | Credibility laundering (01) | 1912 "Deborah Kallikak" was Emma Wolverton | measure | A pseudonym and a study turned one woman into "evidence." Her real name came back much later. |
 | Gaslighting / the least believed (01, p01) | 1931 Vivian Buck makes the honor roll | speak | The court record called her one thing. Her report card said another. |
 | Institutional betrayal (02) | 1927 Buck v. Bell | cut | The institution that was supposed to protect her was the one that harmed her, and the law signed off on it. |
 | Scapegoat to target (04) | 1949 "Refrigerators which did not defrost" | measure | Blame was pinned on the mothers, and the theory got there before the evidence did. |
 | Flying monkeys (01, p04) | 1964 A parent answers the theory | speak | One person speaking back changed the story more than the crowd that kept repeating it. |
-| Keep your own record (05, p05) | 1966 Christmas in Purgatory; 2020 the archive answers | remove / speak | Photos and archives outlived the official story. Your notes can too. |
-| Masking (p06) | 2017 Counting the girls; 2018 "Putting on my best normal" | speak | People who mask well get missed, and then they get blamed for being missed. |
+| Keep your own record (05, p05) | 1966 Christmas in Purgatory; 2018 The archive answers | remove / speak | The photos and the files outlasted the official story. Your notes can too. |
+| Masking (p06) | 2017 Counting the girls; 2017 "Putting on my best normal" | speak | People who mask well get missed, and then they get blamed for being missed. |
 | Double empathy, not a deficit (new topic) | 2012 The double empathy problem | speak | A misunderstanding runs both ways, and only one side usually gets written up for it. |
 | Accommodations (new topic, pattern-safe) | 1990 The Americans with Disabilities Act; 1999 Olmstead v. L.C. | speak | Rights on paper only help when someone actually follows them. |
-| Naming it (03, poster) | 1996 "Don't Mourn for Us"; 1998 a word goes public | speak | People started to win when they had their own words for what was happening. |
-| Hope as a retention tool (p07) | 2026 The rule that keeps not arriving | measure | "Next cycle." "Next rule." A promise that keeps getting pushed back is a form of control. |
+| Naming it (03, poster) | 1993 "Don't Mourn for Us"; 1998 A word goes public | speak | People started to win when they had their own words for what was happening. |
 
 ## Suggested first echo posts
 1. **"Average was invented."** Open the Metrics batch with Quetelet and "normal" as the history slide. This is the best fit, because your Metrics handoff already starts in 1911.
