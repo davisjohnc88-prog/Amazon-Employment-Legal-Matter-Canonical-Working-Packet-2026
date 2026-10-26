@@ -6,7 +6,9 @@
 import sys, os, re, html, subprocess, json
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from content import CAROUSELS, SINGLES, POSTER_TERMS
+from build_content import load_content  # same content file build.py used ($SERIES_CONTENT)
+_C = load_content()
+CAROUSELS, SINGLES, POSTER_TERMS = _C.CAROUSELS, _C.SINGLES, _C.POSTER_TERMS
 
 HTML_DIR, BATCH = sys.argv[1], sys.argv[2]
 results = []  # (level, check, message)

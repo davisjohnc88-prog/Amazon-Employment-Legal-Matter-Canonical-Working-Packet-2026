@@ -1,8 +1,12 @@
 # Builds HTML pages for every carousel, single post, and the poster.
 # Usage: python3 build.py <fonts_dir> <out_dir>   (photos come from series/img, or $SERIES_IMG)
+# $SERIES_CONTENT can point at another content file (for example series/linkedin/content.py); it defaults to content.py here.
 import sys, os, html, json
 sys.path.insert(0, os.path.dirname(__file__))
-from content import SERIES, CAROUSELS, SINGLES, POSTER_TERMS
+from build_content import load_content
+
+_C = load_content()
+SERIES, CAROUSELS, SINGLES, POSTER_TERMS = _C.SERIES, _C.CAROUSELS, _C.SINGLES, _C.POSTER_TERMS
 
 FONTS = os.path.abspath(sys.argv[1])
 OUT = os.path.abspath(sys.argv[2])
@@ -91,6 +95,31 @@ h1 em,h2 em{font-style:italic;font-weight:500;color:var(--mari)}
 .cta .b1{font-size:34px;line-height:1.38;opacity:.92;margin-bottom:30px}
 .cta .b2{font:600 28px/1.4 Inter;color:#F6B66A;border-top:2px solid rgba(255,255,255,.25);padding-top:24px}
 .swipe{position:absolute;right:92px;top:96px;font:700 22px Inter;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.35);padding:14px 20px;border-radius:30px}
+/* history echo: a photo band, the timeline entry, and the same move at work */
+.echo .band{position:absolute;left:0;right:0;top:0;height:430px;background-size:cover;background-position:center 22%}
+.echo .pad{top:478px;bottom:150px;justify-content:flex-start}
+.echo .pad>.kicker{position:static;margin-bottom:22px}
+.echo h2{font-size:56px;line-height:1.06;margin-bottom:18px}
+.echo .hist{font-size:29px;line-height:1.4;color:#2b3236;margin-bottom:12px}
+.echo .rq{font:italic 500 29px/1.35 Fraunces;color:var(--teal);margin-bottom:12px}
+.echo .card{background:#fff;border-left:10px solid var(--mari);border-radius:6px 22px 22px 6px;padding:28px 38px 30px;box-shadow:0 8px 30px rgba(30,37,40,.08);margin-top:14px}
+.echo .lab{font:700 21px/1 Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.echo .term{font:700 42px/1.1 Fraunces;margin-bottom:8px}
+.echo .def{font-size:26px;line-height:1.35;color:var(--muted);margin-bottom:14px}
+.echo .work{font:italic 500 34px/1.28 Fraunces;color:var(--ink)}
+.echo .source{position:static;margin-top:auto}
+.echo .hist,.echo .rq,.echo .def,.echo .work,.grid2 .c span{text-wrap:pretty}
+/* two-column field guide */
+.grid2 .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.grid2 .hd{font:700 22px/1.2 Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.grid2 .c{background:var(--paper);border-radius:18px;padding:22px 26px;border-top:8px solid var(--teal);margin-top:16px}
+.grid2 .col2 .c{border-top-color:var(--mari)}
+.grid2 .c b{display:block;font:700 34px/1.1 Fraunces;margin-bottom:10px}
+.grid2 .c span{font-size:26px;line-height:1.32;color:#3b4245}
+.grid2 h2{font-size:64px;margin-bottom:30px}
+/* report quote */
+.quote h2{font-size:62px;line-height:1.12;font-weight:600}
+.quote .by{font:700 22px/1.3 Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:34px}
 /* singles */
 .single .panel{position:absolute;left:0;right:0;bottom:0;background:var(--paper);padding:58px 80px 120px;border-radius:40px 40px 0 0}
 .single .q{font:700 68px/1.08 Fraunces;margin-bottom:24px}
@@ -156,6 +185,16 @@ def slide(s, i, n):
     if t == "record":
         f = "".join(f'<div class="f">{x}</div>' for x in s["fields"])
         return f'''<section class="slide record"><div class="pad"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2><div class="sheet">{f}</div><div class="note">{s['note']}</div></div>{foot(i,n)}</section>'''
+    if t == "echo":
+        rq = f'<div class="rq">“{s["rq"]}” (from my report)</div>' if s.get("rq") else ""
+        return f'''<section class="slide echo"><div class="band" style="background-image:url({img(s['img'])})"></div><div class="pad"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2>
+<div class="hist">{s['hist']}</div>{rq}<div class="card"><div class="lab">{s['lab']}</div><div class="term">{s['term']}</div><div class="def">{s['def']}</div><div class="work">{s['work']}</div></div>{src(s.get('source'))}</div>{foot(i,n)}</section>'''
+    if t == "grid2":
+        cols = "".join(f'<div class="col{k + 1}"><div class="hd">{h}</div>' + "".join(f'<div class="c"><b>{a}</b><span>{b}</span></div>' for a, b in items) + "</div>"
+                       for k, (h, items) in enumerate(s["cols"]))
+        return f'''<section class="slide grid2"><div class="pad"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2><div class="cols">{cols}</div>{src(s.get('source'))}</div>{foot(i,n)}</section>'''
+    if t == "quote":
+        return f'''<section class="slide quote text"><div class="pad"><div class="kicker">{s['kicker']}</div><h2>“{s['quote']}”</h2><div class="body"><p class='big-line'>{s['line']}</p>{s.get('body', '')}</div><div class="by">{s['by']}</div></div>{foot(i,n)}</section>'''
     if t == "cta":
         return f'''<section class="slide cta dark"><div class="photo" style="background-image:url({img(s['img'])})"></div>
 <div class="card"><div class="kicker">{s['kicker']}</div><h2>{s['title']}</h2><div class="b1">{s['body']}</div><div class="b2">{s['foot']}</div></div>{foot(i,n,True,False)}</section>'''
@@ -183,12 +222,13 @@ for s in SINGLES:
     manifest.append({"slug": s["slug"], "html": p, "kind": "single", "n": 1})
 
 cards = "".join(f"<div class='c'><b>{a}</b><span>{b}</span></div>" for a, b in POSTER_TERMS)
-body = f'''<section class="slide poster"><div class="pad" style="bottom:120px"><div class="kicker">Save this</div><h2>The vocabulary nobody gave you</h2>
+body = "" if not POSTER_TERMS else f'''<section class="slide poster"><div class="pad" style="bottom:120px"><div class="kicker">Save this</div><h2>The vocabulary nobody gave you</h2>
 <div class="lede">Twelve tactics, in plain words. When you can name a tactic, it gets harder to use on you.</div><div class="g">{cards}</div>
 </div><div class="foot"><span>{SERIES}</span><span class="pg">Full series: link in bio</span></div></section>'''
-p = os.path.join(OUT, "p11-vocabulary-poster.html")
-open(p, "w").write(page(body, "poster"))
-manifest.append({"slug": "p11-vocabulary-poster", "html": p, "kind": "single", "n": 1})
+if POSTER_TERMS:
+    p = os.path.join(OUT, "p11-vocabulary-poster.html")
+    open(p, "w").write(page(body, "poster"))
+    manifest.append({"slug": "p11-vocabulary-poster", "html": p, "kind": "single", "n": 1})
 
 json.dump(manifest, open(os.path.join(OUT, "manifest.json"), "w"), indent=1)
 print(len(manifest), "pages")

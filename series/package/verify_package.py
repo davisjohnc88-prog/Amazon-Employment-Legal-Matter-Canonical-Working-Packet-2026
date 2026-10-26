@@ -56,8 +56,8 @@ for dirpath, dirs, files in os.walk(ROOT):
         if len(pngs) > 1 and "LinkedIn carousel.pdf" not in files:
             problems.append(f"{rel}: carousel without its PDF")
         cap = t.split("Caption (copy and paste)")[1].split("Alt text (paste")[0]
-        n = int(re.search(r"([\d,]+) of 2,200", cap).group(1).replace(",", ""))
-        if n > 2200:
+        n, lim = (int(x.replace(",", "")) for x in re.search(r"([\d,]+) of ([\d,]+) characters", cap).groups())
+        if n > lim:
             problems.append(f"{rel}: caption too long ({n})")
         if re.search(r"crisis|suicid", cap, re.I) and "988" not in cap:
             problems.append(f"{rel}: crisis mention without 988")

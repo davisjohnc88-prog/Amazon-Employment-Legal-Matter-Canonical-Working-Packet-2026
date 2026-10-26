@@ -13,8 +13,9 @@ SERIES = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(SERIES, "build"))
 import content as C  # batch 01 slides
 
-TREES, OUT = os.path.abspath(sys.argv[1]), os.path.abspath(sys.argv[2])
-ROOT = os.path.join(OUT, "Workplace Psych")
+# Other scripts (series/linkedin/package_linkedin.py) import the helpers below, so only read argv when run directly.
+TREES, OUT = (os.path.abspath(sys.argv[1]), os.path.abspath(sys.argv[2])) if __name__ == "__main__" else (None, None)
+ROOT = os.path.join(OUT, "Workplace Psych") if OUT else None
 B1 = os.path.join(SERIES, "batch-01")
 TODAY = datetime.date.today().strftime("%B %-d, %Y")
 INK, ACC, SOFT = RGBColor(0x1C, 0x28, 0x24), RGBColor(0xB2, 0x3A, 0x35), RGBColor(0x4A, 0x5A, 0x54)
@@ -128,13 +129,13 @@ def md_to_docx(md, path, title=None):
     d.save(path)
 
 
-def post_doc(path, title, sub, files, cap, alts, sources, whose, notes, checks, extra=None):
+def post_doc(path, title, sub, files, cap, alts, sources, whose, notes, checks, extra=None, limit=2200):
     d = new_doc()
     d.add_heading(title, 0)
     meta(d, sub)
     d.add_heading("What's in this folder", 1)
     bullets(d, files)
-    d.add_heading(f"Caption (copy and paste) · {len(cap):,} of 2,200 characters", 1)
+    d.add_heading(f"Caption (copy and paste) · {len(cap):,} of {limit:,} characters", 1)
     caption(d, cap)
     d.add_heading("Alt text (paste into each image's accessibility setting)", 1)
     for i, a in enumerate(alts, 1):
@@ -235,6 +236,7 @@ PHOTO = {
     "desk-papers": "John Charles in the white duck dress, at a desk with notebooks and papers, hand to chin, thinking",
     "doorway": "John Charles in the white duck dress, holding a door open and gesturing inside",
     "finish-lines": "John Charles in the white duck dress, arms crossed, in front of a glowing road lined with finish-line banners",
+    "kitchen-dough": "John Charles in the white duck dress, in a sunny kitchen, rolling out pastry dough with a rolling pin",
     "forest-lens": "John Charles in the white duck dress, sitting on a log in an autumn forest with a magnifying glass and a field notebook",
     "library-rain": "John Charles in the white duck dress, reading in a library armchair by a rainy window, a cup of tea nearby",
     "map-string": "John Charles in the white duck dress, at a desk with a map, a magnifying glass, and stacks of papers, pencil in hand",
@@ -283,6 +285,14 @@ def slide_alt(s):
         a = f"{stop(g('kicker'))} {stop(g('title'))} A blank record sheet with these fields: " + ", ".join(plain(x) for x in s["fields"]) + f". {stop(g('note'))}"
     elif t == "cta":
         a = f"{stop(g('kicker'))} {stop(g('title'))} {stop(g('body'))} {stop(g('foot'))}"
+    elif t == "echo":
+        a = (f"{stop(g('kicker'))} {stop(g('title'))} {stop(g('hist'))} {stop(g('rq'))} "
+             f"{g('lab')}: {stop(g('term'))} {stop(g('def'))} {stop(g('work'))}")
+    elif t == "grid2":
+        a = f"{stop(g('kicker'))} {stop(g('title'))} Two columns. " + " ".join(
+            f"{stop(plain(h))} " + " ".join(f"{plain(x)}: {stop(plain(y))}" for x, y in items) for h, items in s["cols"])
+    elif t == "quote":
+        a = f"{stop(g('kicker'))} {stop(g('quote'))} {stop(g('line'))} {stop(g('body'))} {stop(g('by'))}"
     else:
         raise ValueError(t)
     return re.sub(r"\s+", " ", (a + src + ph).replace(" .", "")).strip()
