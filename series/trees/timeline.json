@@ -1,0 +1,1387 @@
+{
+ "LANES": {
+  "measure": {
+   "name": "Measuring",
+   "c": "var(--lane-measure)"
+  },
+  "remove": {
+   "name": "Removing",
+   "c": "var(--lane-remove)"
+  },
+  "cut": {
+   "name": "Cutting",
+   "c": "var(--lane-cut)"
+  },
+  "kill": {
+   "name": "Killing and harming",
+   "c": "var(--lane-kill)"
+  },
+  "speak": {
+   "name": "Speaking back",
+   "c": "var(--lane-speak)"
+  },
+  "frame": {
+   "name": "The bus",
+   "c": "var(--lane-frame)"
+  }
+ },
+ "ERAS": [
+  {
+   "id": "ledger",
+   "span": "1601–1899",
+   "t": "The ledger before the science",
+   "p": "Sorting by usefulness is older than any science of heredity. Later sciences gave the habit numbers, and the numbers gave it authority."
+  },
+  {
+   "id": "measure",
+   "span": "1900–1932",
+   "t": "Measuring, filing, cutting",
+   "p": "A test built to help children became a gate. A filing cabinet became a bloodline. A Supreme Court opinion made the knife legal."
+  },
+  {
+   "id": "killing",
+   "span": "1933–1945",
+   "t": "From sterilization to murder",
+   "p": "Nazi Germany borrowed the American model and carried it to its end. There are no scenes in this era."
+  },
+  {
+   "id": "institution",
+   "span": "1946–1979",
+   "t": "The institution and the experiment",
+   "p": "Eugenics lost its name. Its habits survived: blame a bloodline, remove people from view, and test treatments on children who could not refuse."
+  },
+  {
+   "id": "speaking",
+   "span": "1980–2012",
+   "t": "Speaking back",
+   "p": "Disabled people began writing the record themselves, and the law began to follow."
+  },
+  {
+   "id": "present",
+   "span": "2013–2026",
+   "t": "The present tense",
+   "p": "Old questions return in new rooms. These entries are recent, and some are still moving."
+  }
+ ],
+ "E": [
+  {
+   "era": "ledger",
+   "y": "1601",
+   "lane": "measure",
+   "t": "The parish ledger",
+   "d": "England's Poor Relief Act makes each parish tax for its poor. Overseers sort applicants into the “impotent” poor who cannot work, the able-bodied who would work, and the “idle” who could but, in the overseer's judgment, will not.",
+   "src": [
+    [
+     "Victorian Web",
+     "https://victorianweb.org/victorian/history/poorlaw/elizpl.html"
+    ]
+   ],
+   "scene": {
+    "img": "timeclock",
+    "lab": "Scene · The first question",
+    "cap": "Can this body earn its keep? You stand beside the machine that asks it.",
+    "art": "Art direction: replace the time clock with a parish overseer's ledger and quill on a church-vestry desk, 1601. Candlelight, oak, a line of petitioners outside the window."
+   }
+  },
+  {
+   "era": "ledger",
+   "y": "1835",
+   "lane": "measure",
+   "t": "Quetelet's “average man”",
+   "d": "The Belgian statistician Adolphe Quetelet builds l'homme moyen, a composite person made from a population's mean measurements, and treats the average as a moral and physical model.",
+   "src": [
+    [
+     "Davis, Enforcing Normalcy (1995)",
+     "https://www.academia.edu/1134554/Constructing_normalcy"
+    ]
+   ],
+   "scene": {
+    "img": "sewing-measure",
+    "lab": "Scene · Taking the measure",
+    "cap": "Tape measure in hand, you are the one doing the measuring for once.",
+    "art": "Art direction: an 1830s Brussels study with calipers, chest-measurement tables of Scottish soldiers, and a hand-drawn bell curve pinned to the wall."
+   }
+  },
+  {
+   "era": "ledger",
+   "y": "c. 1840",
+   "lane": "measure",
+   "t": "“Normal” enters English",
+   "d": "Lennard J. Davis argues that the modern sense of “normal,” conforming to a common type, takes hold around 1840; dictionaries record it from 1828. Before that, a “norm” was a carpenter's square.",
+   "src": [
+    [
+     "Davis (1995)",
+     "https://www.academia.edu/1134554/Constructing_normalcy"
+    ]
+   ]
+  },
+  {
+   "era": "ledger",
+   "y": "1857",
+   "sub": "Apr 17",
+   "lane": "remove",
+   "t": "Ohio opens a school for disabled children",
+   "d": "Ohio creates the Asylum for the Education of Idiotic and Imbecile Youth. Nine pupils arrive on August 3 at a rented house on East Main Street in Columbus. Its founders believed the children could be taught. By 1917 it held 2,430 residents and ran as a custodial farm.",
+   "src": [
+    [
+     "FCBDD history",
+     "https://fcbdd.org/wp-content/uploads/2014/05/History_Rev.3_2000.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "ledger",
+   "y": "1867",
+   "lane": "remove",
+   "t": "The first “ugly law”",
+   "d": "San Francisco bans “unsightly” beggars from public view. Supporters worried about the “faker,” the beggar presumed to be pretending.",
+   "src": [
+    [
+     "Schweik, The Ugly Laws (2009)",
+     "https://muse.jhu.edu/book/12619"
+    ]
+   ]
+  },
+  {
+   "era": "ledger",
+   "y": "1869",
+   "lane": "measure",
+   "t": "Hereditary Genius",
+   "d": "Francis Galton argues that talent and character run in families. Davis argues that Galton reorganized the bell curve into ranked quartiles, so the best place was no longer the middle but the top.",
+   "src": [
+    [
+     "Embryo Project",
+     "https://embryo.asu.edu/pages/francis-galton-1822-1911"
+    ]
+   ]
+  },
+  {
+   "era": "ledger",
+   "y": "1881",
+   "lane": "remove",
+   "t": "Chicago bars the “deformed” from view",
+   "d": "Chicago's ordinance bars anyone “diseased, maimed, mutilated, or in any way deformed” from public places, with fines of one to fifty dollars. It stays on the books until 1974.",
+   "fix": true,
+   "src": [
+    [
+     "Schweik (2009)",
+     "https://muse.jhu.edu/book/12619"
+    ]
+   ],
+   "scene": {
+    "img": "courtyard",
+    "lab": "Scene · In plain view",
+    "cap": "Sitting in a public square, in full view, which is exactly what these ordinances forbade.",
+    "art": "Art direction: an 1880s Chicago street corner with gas lamps, a printed ordinance nailed to a post, and you seated openly on the fountain's edge."
+   }
+  },
+  {
+   "era": "ledger",
+   "y": "1883",
+   "lane": "measure",
+   "t": "Galton coins “eugenics”",
+   "d": "In Inquiries into Human Faculty, Galton names a science of “improving stock,” from Greek roots for “good” and “birth.”",
+   "src": [
+    [
+     "Embryo Project",
+     "https://embryo.asu.edu/pages/francis-galton-1822-1911"
+    ]
+   ]
+  },
+  {
+   "era": "ledger",
+   "y": "1894",
+   "lane": "remove",
+   "t": "Columbus passes its own ugly law",
+   "d": "Columbus, Ohio, adopts an “unsightly beggar” ordinance in the depression after the Panic of 1893. It is still in the city code as late as 1972.",
+   "fix": true,
+   "src": [
+    [
+     "Schweik (2009)",
+     "https://muse.jhu.edu/book/12619"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1905",
+   "lane": "measure",
+   "t": "Binet's scale, built to help",
+   "d": "Alfred Binet and Théodore Simon publish a scale to find children who need help in school. Binet calls the idea of fixed intelligence a “brutal pessimism.”",
+   "src": [
+    [
+     "Gould, The Mismeasure of Man (1981)",
+     "https://hechingerreport.org/reporters-notebook-even-the-father-of-iq-tests-thought-the-results-werent-written-in-stone/"
+    ]
+   ],
+   "scene": {
+    "img": "workshop-ramp",
+    "lab": "Scene · The instrument",
+    "cap": "Building a measuring device carefully, with the belief that every child can climb the ramp.",
+    "art": "Art direction: a Paris schoolroom around 1905, with wooden test blocks, a stopwatch, and Binet's printed question cards on the bench."
+   }
+  },
+  {
+   "era": "measure",
+   "y": "1907",
+   "lane": "cut",
+   "t": "Indiana's sterilization law",
+   "d": "Indiana passes the first compulsory sterilization law. California follows in 1909 and becomes the country's most aggressive sterilizer, with about 20,000 operations before repeal in 1979.",
+   "src": [
+    [
+     "DREDF",
+     "https://dredf.org/wp-content/uploads/2020/05/AB-3052-Fact-Sheet.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1908",
+   "lane": "measure",
+   "t": "Better Babies",
+   "d": "Infant-scoring contests begin at the Louisiana State Fair. Judges score babies the way they score calves.",
+   "src": [
+    [
+     "Eugenics Archive",
+     "https://eugenicsarchive.org/html/eugenics/static/themes/8.html"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1910",
+   "lane": "measure",
+   "t": "The Eugenics Record Office",
+   "d": "Charles Davenport opens the ERO at Cold Spring Harbor with Mary Harriman's money. Between 1910 and 1924 it trains about 258 field workers, who bring back family trees marked for “feeblemindedness” and “pauperism.” It closes in 1939.",
+   "src": [
+    [
+     "Embryo Project",
+     "https://embryo.asu.edu/pages/eugenics-record-office-cold-spring-harbor-laboratory-1910-1939"
+    ],
+    [
+     "CSHL",
+     "https://www.cshl.edu/?p=39253"
+    ]
+   ],
+   "scene": {
+    "img": "archive",
+    "lab": "Scene · The filing cabinets",
+    "cap": "Standing among the drawers where families were turned into data. You hold the notebook, so this time the record answers back.",
+    "art": "Art direction: the ERO card-file room at Cold Spring Harbor, 1910s. Oak drawers labeled by trait, pedigree charts on the wall, a single window over Long Island Sound."
+   }
+  },
+  {
+   "era": "measure",
+   "y": "1910",
+   "lane": "measure",
+   "t": "Goddard coins “moron”",
+   "d": "Henry H. Goddard proposes “idiot,” “imbecile,” and a new word, “moron,” for people who looked like anyone else. Testing, he argued, could find them when the eye could not.",
+   "src": [
+    [
+     "WNYC",
+     "https://wnyc.org/story/it-took-a-eugenicist-to-come-up-with-moron"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1912",
+   "lane": "measure",
+   "t": "“Deborah Kallikak” was Emma Wolverton",
+   "d": "Goddard's The Kallikak Family makes a pedigree argument out of a real woman, Emma Wolverton. She sewed, played cornet in the band, ran the gymnasium's plays, and raised Persian cats, one of them named Henry after Goddard. She lived 81 of her 89 years in institutions.",
+   "src": [
+    [
+     "Embryo Project",
+     "https://embryo.asu.edu/pages/emma-wolverton-1889-1978"
+    ]
+   ],
+   "scene": {
+    "img": "cat-lap",
+    "lab": "Scene · Henry the cat",
+    "cap": "A cat on your lap, for the woman who named hers after the man who studied her.",
+    "art": "Art direction: a 1940s staff cottage at the Vineland women's institution, with a Persian cat, a cornet on the chair, and a Christmas card propped on the sill."
+   }
+  },
+  {
+   "era": "measure",
+   "y": "1913",
+   "lane": "remove",
+   "t": "Testing at Ellis Island",
+   "d": "Goddard's assistants test about 165 pre-selected steerage passengers. His 1917 report labels 83% of the Jews, 80% of the Hungarians, 79% of the Italians, and 87% of the Russians in his groups “feeble-minded.”",
+   "src": [
+    [
+     "Goddard (1917)",
+     "https://gwern.net/doc/iq/1917-goddard.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1917",
+   "lane": "measure",
+   "t": "Army Alpha and Beta",
+   "d": "About 1.75 million recruits take Robert Yerkes's tests. Carl Brigham's 1923 book uses the results to rank national groups. He recants in 1930.",
+   "src": [
+    [
+     "EBSCO",
+     "https://www.ebsco.com/research-starters/law/intelligence-testing-and-immigration-legislation"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1920",
+   "lane": "measure",
+   "t": "Division 203: “Human Stock”",
+   "d": "At the Kansas Free Fair, families enter a livestock-style contest. Those scoring B-plus or better get a bronze medal reading “Yea, I have a goodly heritage.” Families who fell short were told to drink more milk and try again next year.",
+   "src": [
+    [
+     "Eugenics Archive (Canada)",
+     "https://eugenicsarchive.ca/discover/encyclopedia/535eebfb7095aa0000000228"
+    ]
+   ],
+   "scene": {
+    "img": "picnic",
+    "lab": "Scene · The fair",
+    "cap": "Pie on the table, sun going down, a medal you never asked to compete for.",
+    "art": "Art direction: the Topeka fairgrounds, 1920. A white clapboard “Eugenics Building” behind you, cattle ribbons on the pens, families in Sunday clothes in line."
+   }
+  },
+  {
+   "era": "measure",
+   "y": "1922",
+   "lane": "cut",
+   "t": "Laughlin's model law",
+   "d": "Harry Laughlin of the ERO drafts a model sterilization law built to survive court challenges. Virginia's 1924 statute follows its logic.",
+   "src": [
+    [
+     "Lombardo, Three Generations, No Imbeciles (2008)",
+     "https://encyclopediavirginia.org/entries/buck-v-bell-1927/"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1924",
+   "lane": "remove",
+   "t": "National-origins quotas",
+   "d": "Congress passes the Immigration Act of 1924. Laughlin testifies for restriction. Historians still debate how much the tests shaped the law.",
+   "src": [
+    [
+     "Alicia Patterson Foundation",
+     "https://aliciapatterson.org/?p=11895"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1925",
+   "lane": "speak",
+   "t": "Sukhareva describes six boys",
+   "d": "In Moscow, Grunya Sukhareva publishes detailed portraits of six boys with social withdrawal, intense interests, and sensory sensitivities. These are among the first clinical descriptions of what is now called autism, nearly twenty years before Kanner and Asperger.",
+   "src": [
+    [
+     "Hektoen International",
+     "https://hekint.org/2026/03/09/grunya-sukhareva-and-the-early-observation-of-autistic-behavior/"
+    ]
+   ],
+   "scene": {
+    "img": "forest-lens",
+    "lab": "Scene · Looking closely",
+    "cap": "A magnifying glass and a field notebook. This is observation done with care, the opposite of the ERO's field work.",
+    "art": "Art direction: the garden of Sukhareva's therapeutic school in a converted Moscow house, 1924. Children at play in the background, autumn leaves."
+   }
+  },
+  {
+   "era": "measure",
+   "y": "1925",
+   "lane": "cut",
+   "t": "Ohio's governor vetoes sterilization",
+   "d": "A sterilization bill passes both houses in Ohio. Governor A. Victor Donahey vetoes it. Ohio never enacts a sterilization law.",
+   "src": [
+    [
+     "Kaelber, Ohio",
+     "https://www.uvm.edu/~lkaelber/eugenics/OH/OH.html"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1927",
+   "sub": "May 2",
+   "lane": "cut",
+   "dark": true,
+   "t": "Buck v. Bell",
+   "d": "The Supreme Court upholds Virginia's law, 8 to 1. Holmes writes, “Three generations of imbeciles are enough.” At trial, a social worker testified that Carrie Buck's infant had “a look about it that is not quite normal.” Carrie is sterilized on October 19.",
+   "fix": true,
+   "src": [
+    [
+     "Encyclopedia Virginia",
+     "https://encyclopediavirginia.org/entries/buck-v-bell-1927/"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1927",
+   "lane": "speak",
+   "t": "Sukhareva's five girls",
+   "d": "Sukhareva publishes a second paper on five girls, who show a less conspicuous picture. It is the only detailed account of sex differences in the syndrome in the first half of the century. It waits 93 years for English readers.",
+   "src": [
+    [
+     "Simmonds (2020)",
+     "https://openaccess.wgtn.ac.nz/articles/thesis/G_E_Sukhareva_s_place_in_the_history_of_autism_research_Context_reception_translation/17136701"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1928",
+   "lane": "measure",
+   "t": "Goddard reverses himself",
+   "d": "Goddard writes that the “moron” is not incurable and does not generally need to be institutionalized. The book had already done its work.",
+   "src": [
+    [
+     "WNYC",
+     "https://wnyc.org/story/it-took-a-eugenicist-to-come-up-with-moron"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1929",
+   "lane": "cut",
+   "t": "North Carolina's Eugenics Board begins",
+   "d": "Between 1929 and 1974 it authorizes about 7,600 sterilizations. About 85% are women and girls.",
+   "src": [
+    [
+     "NBC News / AP",
+     "https://www.nbcnews.com/news/amp/wbna43974068"
+    ]
+   ]
+  },
+  {
+   "era": "measure",
+   "y": "1931",
+   "sub": "April",
+   "lane": "speak",
+   "t": "Vivian Buck makes the honor roll",
+   "d": "The child held up as proof of a third generation of “imbeciles” is on the honor roll at Venable school. She dies of enterocolitis in July 1932, at eight.",
+   "src": [
+    [
+     "Encyclopedia Virginia",
+     "https://encyclopediavirginia.org/entries/buck-carrie-1906-1983/"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1933",
+   "sub": "Jul 14",
+   "lane": "cut",
+   "dark": true,
+   "t": "Germany's sterilization law",
+   "d": "Six months after taking power, the Nazi government passes a law drawing on Laughlin's model. Between 350,000 and 400,000 people are sterilized. Heidelberg gives Laughlin an honorary doctorate in 1936.",
+   "src": [
+    [
+     "Cold Spring Harbor Eugenics Archive",
+     "https://eugenicsarchive.org/html/eugenics/essay8text.html"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1938",
+   "sub": "Oct",
+   "lane": "measure",
+   "dark": true,
+   "t": "Asperger's lecture",
+   "d": "Seven months after the annexation of Austria, Hans Asperger uses the term “autistic psychopaths” in a Vienna lecture that opens by endorsing the regime's view of the Volk.",
+   "src": [
+    [
+     "Czech (2018)",
+     "https://molecularautism.biomedcentral.com/articles/10.1186/s13229-018-0208-6"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1939",
+   "sub": "Aug 18",
+   "lane": "kill",
+   "dark": true,
+   "t": "Reporting decree for disabled children",
+   "d": "Doctors, nurses, and midwives must report newborns and young children with disabilities. Pediatric “special wards” become killing wards. The age limit later rises to 17.",
+   "src": [
+    [
+     "USHMM",
+     "https://encyclopedia.ushmm.org/content/en/article/euthanasia-program"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1939",
+   "sub": "Oct",
+   "lane": "kill",
+   "dark": true,
+   "t": "Aktion T4",
+   "d": "Hitler signs a secret authorization, backdated to September 1. Questionnaires that look like statistics emphasize each patient's capacity to work. Panels of three doctors mark who will die.",
+   "src": [
+    [
+     "USHMM",
+     "https://encyclopedia.ushmm.org/content/en/article/euthanasia-program"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1940",
+   "lane": "kill",
+   "dark": true,
+   "t": "Six gassing centers",
+   "d": "Patients are bused to Brandenburg, Grafeneck, Bernburg, Sonnenstein, Hartheim, and Hadamar. By T4's own count, 70,273 people are killed by August 1941. Families get urns and invented causes of death. Helene Melanie Lebel, a law student from Vienna, is gassed at Brandenburg in 1940.",
+   "src": [
+    [
+     "USHMM",
+     "https://encyclopedia.ushmm.org/content/en/article/euthanasia-program"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1940–45",
+   "lane": "kill",
+   "dark": true,
+   "t": "Am Spiegelgrund",
+   "d": "In Vienna, 789 children die at the Spiegelgrund clinic, many drugged and left exposed until pneumonia set in. Their brains are kept for research. In 1941 Herta Schreiber is transferred there on Asperger's authority and dies two months later.",
+   "src": [
+    [
+     "CMAJ",
+     "https://www.cmaj.ca/content/171/6/619"
+    ],
+    [
+     "Czech (2018)",
+     "https://molecularautism.biomedcentral.com/articles/10.1186/s13229-018-0208-6"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1941",
+   "sub": "Aug 3",
+   "lane": "speak",
+   "t": "Bishop von Galen's sermon",
+   "d": "After public protest, including von Galen's sermon in Münster, Hitler orders a halt to the gassings in late August. The killing goes on by injection, overdose, and starvation. T4 staff go on to run Belzec, Sobibor, and Treblinka.",
+   "src": [
+    [
+     "USHMM",
+     "https://encyclopedia.ushmm.org/content/en/article/euthanasia-program"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1943",
+   "lane": "measure",
+   "t": "Kanner's eleven children",
+   "d": "Leo Kanner describes eight boys and three girls. Case 1 is Donald Triplett of Forest, Mississippi, whose father wrote Kanner a 33-page letter. Triplett graduates from Millsaps, works at the Bank of Forest for 65 years, and travels the world alone.",
+   "fix": true,
+   "src": [
+    [
+     "The Transmitter",
+     "https://www.thetransmitter.org/spectrum/donald-triplett-autisms-case-1-dies-at-89/"
+    ]
+   ],
+   "scene": {
+    "img": "map-string",
+    "lab": "Scene · Case 1 travels",
+    "cap": "A map and red string, for a man the town let be himself, and who went everywhere.",
+    "art": "Art direction: a 1960s small-town Mississippi bank office after hours, with travel brochures, a pinned world map, and a golf bag in the corner."
+   }
+  },
+  {
+   "era": "killing",
+   "y": "1944",
+   "lane": "measure",
+   "dark": true,
+   "t": "Asperger's thesis",
+   "d": "Asperger's postdoctoral thesis describes four boys and praises children who could find a place “in the organism of the social community.” In wartime Vienna, being judged useful could decide which children were trained and which were sent away.",
+   "src": [
+    [
+     "Czech (2018)",
+     "https://molecularautism.biomedcentral.com/articles/10.1186/s13229-018-0208-6"
+    ]
+   ]
+  },
+  {
+   "era": "killing",
+   "y": "1944",
+   "sub": "by",
+   "lane": "kill",
+   "dark": true,
+   "fix": true,
+   "t": "Shock treatment for children at Bellevue",
+   "d": "In New York, Lauretta Bender is giving electroconvulsive therapy to children she diagnoses with “childhood schizophrenia.” Ted Chabasinski, about six, is among her early series. Her 1947 report covers about 100 children, 98 of them under 12. By the mid-1950s she estimates more than 500 children have had it, some as young as three.",
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=323"
+    ],
+    [
+     "Bender (1947), via Notre Dame Australia",
+     "https://researchonline.nd.edu.au/med_article/263"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1949",
+   "lane": "measure",
+   "t": "“Refrigerators which did not defrost”",
+   "d": "Kanner describes the children as kept “neatly in refrigerators which did not defrost.” The metaphor gets away from him. Bettelheim's The Empty Fortress (1967) turns it into mother-blame.",
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=312"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1961",
+   "lane": "kill",
+   "dark": true,
+   "t": "LSD for children at Creedmoor",
+   "d": "In January 1961 Bender begins giving LSD or the related drug UML daily to children she diagnoses with “childhood schizophrenia.” Her 1962 report counts 54 children aged 6 to 15; a 1970 follow-up counts 89.",
+   "fix": true,
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=323"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1961",
+   "lane": "measure",
+   "t": "The borderline line, drawn at 85",
+   "d": "The American Association on Mental Deficiency defines subaverage intelligence as IQ below about 85. In 1973 it moves the line to about 70. Roughly 14% of people, scoring between 70 and 85, move out of the category without anyone changing.",
+   "src": [
+    [
+     "Parallels in Time",
+     "https://mn.gov/mnddc/parallels2/two/002.html"
+    ]
+   ],
+   "scene": {
+    "img": "finish-lines",
+    "lab": "Scene · The line that moved",
+    "cap": "Arms crossed, watching the finish line drift down the road again.",
+    "art": "Art direction: keep the winding road, but paint the finish banners as IQ cutoffs labeled 85 and 70, with a 1960s committee table at the roadside."
+   }
+  },
+  {
+   "era": "institution",
+   "y": "1962",
+   "lane": "frame",
+   "t": "One Flew Over the Cuckoo's Nest",
+   "d": "Ken Kesey writes the novel after working nights as a psychiatric aide. He had been paid to take LSD in experiments at the Menlo Park VA hospital, which journalist Stephen Kinzer links to the CIA's MKUltra program.",
+   "src": [
+    [
+     "UVA Library",
+     "https://explore.lib.virginia.edu/exhibits/show/sixties/walkthrough/kenkesey"
+    ],
+    [
+     "NPR Fresh Air",
+     "https://www.npr.org/transcripts/758989641"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1964",
+   "lane": "frame",
+   "t": "Furthur leaves La Honda",
+   "d": "A 1939 International Harvester school bus painted in Day-Glo carries Kesey and the Merry Pranksters across the country. Their saying was “You're either on the bus or off the bus.”",
+   "src": [
+    [
+     "UVA Library",
+     "https://explore.lib.virginia.edu/exhibits/show/sixties/walkthrough/kenkesey"
+    ]
+   ],
+   "scene": {
+    "img": "psychedelic-landscape",
+    "lab": "Scene · On the bus",
+    "cap": "Headphones on, the road unspooling in color. This door was chosen freely.",
+    "art": "Art direction: you in a seat on Furthur, window open, the painted bus panels and the California coast swirling past."
+   }
+  },
+  {
+   "era": "institution",
+   "y": "1964",
+   "lane": "speak",
+   "t": "A parent answers the theory",
+   "d": "Bernard Rimland, a Navy psychologist whose son had autism, publishes Infantile Autism, arguing for a biological cause. In 1965 parents found the group that becomes the Autism Society of America. Accused parents became advocates.",
+   "src": [
+    [
+     "PBS POV",
+     "https://archive.pov.org/refrigeratormothers/fridge/?amp=1"
+    ]
+   ],
+   "scene": {
+    "img": "kitchen-salad",
+    "lab": "Scene · Kitchen-table advocacy",
+    "cap": "The kitchen, where parents' organizing started.",
+    "art": "Art direction: a mid-1960s suburban kitchen with a mimeographed newsletter, a rotary phone, and an address list on the table beside the bowl."
+   }
+  },
+  {
+   "era": "institution",
+   "y": "1965",
+   "sub": "May 7",
+   "lane": "kill",
+   "dark": true,
+   "t": "“Screams, Slaps and Love”",
+   "d": "Life magazine introduces Ivar Lovaas's UCLA program, with photos of a girl named Pamela on an electrified floor.",
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=975"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1965–66",
+   "lane": "frame",
+   "t": "The Acid Tests",
+   "d": "The Pranksters host parties with LSD-laced Kool-Aid, light shows, and the Grateful Dead, through the “Acid Test Graduation” on October 31, 1966. LSD becomes illegal in California that October.",
+   "src": [
+    [
+     "Groningen outline",
+     "https://www.let.rug.nl/usa/outlines/literature-1991/authors/ken-kesey-furthur.php"
+    ]
+   ],
+   "scene": {
+    "img": "psychedelic",
+    "lab": "Scene · The party door",
+    "cap": "The same molecule, through the door that adults chose.",
+    "art": "Art direction: a 1965 Acid Test hall with an oil-projector light show on the walls and a Kool-Aid tub on a folding table."
+   }
+  },
+  {
+   "era": "institution",
+   "y": "1966",
+   "lane": "kill",
+   "dark": true,
+   "t": "LSD for twins under five",
+   "d": "A UCLA team including Lovaas publishes a study of 50-microgram LSD doses given to identical twin boys aged about 4¾ and 5. The same molecule, through the other door. There is no scene here.",
+   "src": [
+    [
+     "Simmons et al. (1966)",
+     "https://neurodiversity.net/library_simmons_1966.html"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1966",
+   "lane": "remove",
+   "t": "Christmas in Purgatory",
+   "d": "Burton Blatt and photographer Fred Kaplan publish hidden-camera photos of back wards at five state institutions.",
+   "src": [
+    [
+     "Syracuse University Archives",
+     "https://library.syracuse.edu/digital/guides_sua/pdf/blatt_074.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1967",
+   "lane": "remove",
+   "t": "The high-water mark",
+   "d": "194,650 people with intellectual and developmental disabilities live in state institutions, the most ever counted.",
+   "src": [
+    [
+     "Lakin et al. (1982)",
+     "https://conservancy.umn.edu/server/api/core/bitstreams/4c5bb58e-7b0d-4989-aa12-8c4db21d4cb7/content"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1968",
+   "sub": "Mar 5",
+   "lane": "cut",
+   "dark": true,
+   "t": "Elaine Riddick, age 14",
+   "d": "Hours after giving birth to a son conceived in a rape, Riddick is sterilized on the order of North Carolina's Eugenics Board. Her grandmother, who could not read, had marked an X on the form.",
+   "src": [
+    [
+     "WFAE",
+     "https://www.wfae.org/local-news/2011-06-17/mecklenburg-had-most-sterilizations-in-state-eugenics-program"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1972",
+   "sub": "Jan",
+   "lane": "remove",
+   "t": "Willowbrook on television",
+   "d": "Geraldo Rivera films the wards at Willowbrook State School. Parents sue in March, a consent decree follows in 1975, and the last residents leave in 1987.",
+   "src": [
+    [
+     "AHRC NYC",
+     "https://www.ahrcnyc.org/?p=3108"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1973",
+   "lane": "speak",
+   "t": "Section 504",
+   "d": "The Rehabilitation Act bars discrimination by programs that receive federal money. When the regulations stall, activists occupy the federal building in San Francisco for nearly a month in 1977 until they are signed.",
+   "src": [
+    [
+     "FCBDD history",
+     "https://fcbdd.org/wp-content/uploads/2014/05/History_Rev.3_2000.pdf"
+    ]
+   ],
+   "scene": {
+    "img": "restaurant-stop",
+    "lab": "Scene · Not leaving",
+    "cap": "A hand raised. “No, thank you, we're staying.”",
+    "art": "Art direction: the 1977 occupation of the HEW building in San Francisco, with sleeping bags, protest signs, and donated meals on folding tables."
+   }
+  },
+  {
+   "era": "institution",
+   "y": "1974",
+   "lane": "cut",
+   "t": "North Carolina's last sterilization",
+   "d": "The board's work ends. Most of its operations had come after World War II.",
+   "src": [
+    [
+     "NBC News / AP",
+     "https://www.nbcnews.com/news/amp/wbna43974068"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1975",
+   "lane": "speak",
+   "t": "A right to school",
+   "d": "The Education for All Handicapped Children Act, now IDEA, guarantees disabled children a public education.",
+   "src": [
+    [
+     "FCBDD history",
+     "https://fcbdd.org/wp-content/uploads/2014/05/History_Rev.3_2000.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "institution",
+   "y": "1979",
+   "lane": "cut",
+   "t": "California repeals its law",
+   "d": "The state that performed about a third of the country's eugenic sterilizations repeals its statute.",
+   "src": [
+    [
+     "DREDF",
+     "https://dredf.org/wp-content/uploads/2020/05/AB-3052-Fact-Sheet.pdf"
+    ]
+   ]
+  },
+  {
+   "era": "speaking",
+   "y": "1980",
+   "lane": "measure",
+   "t": "Autism gets its own diagnosis",
+   "d": "DSM-III lists “infantile autism” separately from schizophrenia for the first time. The criteria are narrow, and the line moves again in 1987, 1994, and 2013.",
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=279"
+    ]
+   ],
+   "scene": {
+    "img": "whiteboard",
+    "lab": "Scene · The flowchart",
+    "cap": "Drawing the decision tree, so you can see where the arrows were drawn by committee.",
+    "art": "Art direction: a 1979 APA task-force room with typed criteria on index cards, an overhead projector, and ashtrays."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1986",
+   "lane": "speak",
+   "t": "Emergence: Labeled Autistic",
+   "d": "Temple Grandin's memoir brings first-person autistic writing to a wide audience. Donna Williams's Nobody Nowhere follows in 1992.",
+   "src": [
+    [
+     "Pripas-Kapit (2020)",
+     "https://link.springer.com/chapter/10.1007/978-981-13-8437-0_2"
+    ]
+   ],
+   "scene": {
+    "img": "bookshop-writing",
+    "lab": "Scene · Writing it yourself",
+    "cap": "Pencil, notebook, a cat asleep nearby. The record, written from the inside.",
+    "art": "Art direction: a 1980s bookshop window displaying Emergence, rain on the glass."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1987",
+   "lane": "speak",
+   "t": "Pennhurst and Willowbrook close",
+   "d": "Pennhurst closes in December 1987 after litigation that reached the Supreme Court. Willowbrook's last residents had left in September.",
+   "src": [
+    [
+     "Opera Philadelphia timeline",
+     "https://operaphila.org/community/institutionalization-timeline/"
+    ]
+   ],
+   "scene": {
+    "img": "loft-cart",
+    "lab": "Scene · Moving out",
+    "cap": "Rolling a cart of belongings out of the building for the last time.",
+    "art": "Art direction: a 1987 institution corridor emptying out, a moving van at the door, the light at the end bright."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1987",
+   "lane": "measure",
+   "t": "Lovaas's 1987 study",
+   "d": "Lovaas reports that 9 of 19 children reached “normal” functioning after intensive behavioral treatment. The study was not randomized and used aversives. It becomes the founding evidence for ABA.",
+   "src": [
+    [
+     "Sandbank et al. (2020)",
+     "https://pubmed.ncbi.nlm.nih.gov/31763860/"
+    ]
+   ]
+  },
+  {
+   "era": "speaking",
+   "y": "1990",
+   "sub": "Jul 26",
+   "lane": "speak",
+   "t": "The Americans with Disabilities Act",
+   "d": "President George H. W. Bush signs the ADA on the White House South Lawn.",
+   "src": [
+    [
+     "ADA.gov",
+     "https://archive.ada.gov/olmstead/olmstead_about.htm"
+    ]
+   ],
+   "scene": {
+    "img": "rose-garden",
+    "lab": "Scene · On the lawn",
+    "cap": "Sunlight and roses, for the day the law said “in public” and meant everyone.",
+    "art": "Art direction: the South Lawn crowd, July 1990, with folding chairs, wheelchairs in the front row, and banners."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1992",
+   "lane": "speak",
+   "t": "Autism Network International",
+   "d": "Jim Sinclair, Kathy Lissner Grant, and Donna Williams found one of the first organizations run by and for autistic people, in February 1992. Its printed newsletter, Our Voice, starts that November with about fifteen subscribers.",
+   "fix": true,
+   "src": [
+    [
+     "Pripas-Kapit (2020)",
+     "https://link.springer.com/chapter/10.1007/978-981-13-8437-0_2"
+    ]
+   ]
+  },
+  {
+   "era": "speaking",
+   "y": "1993",
+   "lane": "speak",
+   "t": "“Don't Mourn for Us”",
+   "d": "At a Toronto conference, Sinclair asks parents to stop grieving an imagined child and to know the one in front of them. Historians call it the neurodiversity movement's first manifesto.",
+   "src": [
+    [
+     "Pripas-Kapit (2020)",
+     "https://link.springer.com/chapter/10.1007/978-981-13-8437-0_2"
+    ]
+   ],
+   "scene": {
+    "img": "library-rain",
+    "lab": "Scene · Reading the manifesto",
+    "cap": "A rainy library, a mug of tea, and the essay that changed the conversation.",
+    "art": "Art direction: a printed 1993 Our Voice newsletter open on your lap, with an old CRT monitor and a dial-up modem nearby."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1996",
+   "lane": "speak",
+   "t": "Autreat",
+   "d": "ANI holds a retreat designed by autistic people for autistic people.",
+   "src": [
+    [
+     "Autistic rights history",
+     "https://link.springer.com/chapter/10.1007/978-981-13-8437-0_2"
+    ]
+   ],
+   "scene": {
+    "img": "butterfly-house",
+    "lab": "Scene · A place built for you",
+    "cap": "A greenhouse calm enough to breathe in, with butterflies landing where they please.",
+    "art": "Art direction: a 1996 summer-camp lodge with quiet-room signs, name badges with color-coded interaction cards, and a lake beyond."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1998",
+   "lane": "speak",
+   "t": "A word goes public",
+   "d": "Harvey Blume prints “neurodiversity” in The Atlantic, crediting the online autistic community. Judy Singer's thesis uses it the same year. A 2024 paper shows the idea was built collectively.",
+   "src": [
+    [
+     "Botha et al. (2024)",
+     "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+    ]
+   ],
+   "scene": {
+    "img": "butterfly-meadow",
+    "lab": "Scene · Many kinds of flower",
+    "cap": "A meadow where no bloom is the standard one.",
+    "art": "Art direction: keep the meadow, and add a 1998 laptop on a picnic blanket showing an email list."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "1999",
+   "sub": "Jun 22",
+   "lane": "speak",
+   "t": "Olmstead v. L.C.",
+   "d": "Lois Curtis and Elaine Wilson stayed in a Georgia hospital long after their doctors said they could leave. The Supreme Court holds that unjustified segregation is discrimination under the ADA. Curtis becomes a working artist.",
+   "src": [
+    [
+     "ADA.gov",
+     "https://archive.ada.gov/olmstead/olmstead_about.htm"
+    ]
+   ],
+   "scene": {
+    "img": "repotting",
+    "lab": "Scene · Transplanted",
+    "cap": "Roots lifted out of a pot that was too small and set into open ground.",
+    "art": "Art direction: a sunny community garden outside a small Atlanta house, with an artist's easel on the porch."
+   }
+  },
+  {
+   "era": "speaking",
+   "y": "2002",
+   "sub": "Oct 25",
+   "lane": "kill",
+   "dark": true,
+   "t": "Andre McCollins",
+   "d": "At the Judge Rotenberg Center, an 18-year-old who refused to take off his coat is restrained face down and shocked 31 times over nearly seven hours. Video is shown at his family's 2012 trial.",
+   "src": [
+    [
+     "CNN (2012)",
+     "https://www.cnn.com/TRANSCRIPTS/1206/06/acd.01.html"
+    ]
+   ]
+  },
+  {
+   "era": "speaking",
+   "y": "2007",
+   "lane": "speak",
+   "t": "In My Language",
+   "d": "Mel Baggs posts a video that shows their own way of interacting with the world, then asks in typed narration why it isn't counted as thought.",
+   "src": [
+    [
+     "Pripas-Kapit (2020)",
+     "https://link.springer.com/chapter/10.1007/978-981-13-8437-0_2"
+    ]
+   ]
+  },
+  {
+   "era": "speaking",
+   "y": "2012",
+   "lane": "speak",
+   "t": "The double empathy problem",
+   "d": "Damian Milton argues that misunderstanding between autistic and non-autistic people runs both ways. A 2020 study finds information passes as well along autistic chains as non-autistic ones. Only mixed chains degrade.",
+   "src": [
+    [
+     "Crompton et al. (2020)",
+     "https://journals.sagepub.com/doi/ref/10.1177/1362361320919286"
+    ]
+   ],
+   "scene": {
+    "img": "mushrooms",
+    "lab": "Scene · Seeing from the other side",
+    "cap": "Crouched at mushroom level, looking at the world from a different height.",
+    "art": "Art direction: keep the forest floor, and add a second figure crouched across from you, the two of you equally curious."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2013",
+   "lane": "measure",
+   "t": "DSM-5 and support levels",
+   "d": "Autism becomes one spectrum with three support levels. The labels describe needs rather than worth, but a number can still travel into insurance and school files without the person attached.",
+   "src": [
+    [
+     "Autism History Project",
+     "https://blogs.uoregon.edu/autismhistoryproject/?p=279"
+    ]
+   ],
+   "scene": {
+    "img": "shadow-maze",
+    "lab": "Scene · The maze of criteria",
+    "cap": "Shining a light on the maze so its walls show up on the wall.",
+    "art": "Art direction: the maze cutout is made from DSM pages, and its shadow spells “Level 1, 2, 3.”"
+   }
+  },
+  {
+   "era": "present",
+   "y": "2014",
+   "lane": "speak",
+   "t": "North Carolina pays survivors",
+   "d": "Under a 2013 law, the first $20,000 checks reach 220 of 768 claimants in October 2014. By 2018 each survivor has received about $45,500. Most denials come from one rule: only sterilizations the state Eugenics Board approved count, so the state's own paperwork decides who is believed.",
+   "fix": true,
+   "src": [
+    [
+     "History News Network",
+     "https://historynewsnetwork.org/article/157517"
+    ]
+   ],
+   "scene": {
+    "img": "paper-stacks",
+    "lab": "Scene · Documentation asymmetry",
+    "cap": "Buried in paperwork, asked to prove what the state already knew.",
+    "art": "Art direction: a 2014 claims office with towering file boxes stamped “Eugenics Board,” and one thin folder on your desk."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2014",
+   "lane": "cut",
+   "t": "California's prison sterilizations",
+   "d": "A state audit finds 144 female prisoners were sterilized between 2005 and 2013, at least 39 of them without lawful consent. California approves compensation in 2021.",
+   "fix": true,
+   "src": [
+    [
+     "California State Auditor",
+     "https://information.auditor.ca.gov/reports/summary/2013-120"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2017",
+   "lane": "speak",
+   "t": "Counting the girls",
+   "d": "A meta-analysis of 54 studies finds the male-to-female ratio nearer 3 to 1 than 4 to 1 when researchers look harder, which suggests diagnostic bias.",
+   "src": [
+    [
+     "Loomes, Hull & Mandy (2017)",
+     "https://pubmed.ncbi.nlm.nih.gov/28545751/"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2017",
+   "lane": "speak",
+   "t": "“Putting on my best normal”",
+   "d": "Laura Hull and colleagues survey 92 autistic adults (55 women, 30 men, 7 of other genders) online about camouflaging: scripts, forced eye contact, constant self-monitoring, and exhaustion afterward.",
+   "src": [
+    [
+     "Hull et al. (2017)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC5509825/"
+    ]
+   ],
+   "scene": {
+    "img": "backstage-mask",
+    "lab": "Scene · Taking off the mask",
+    "cap": "Backstage, the mask set down on the table.",
+    "art": "Art direction: keep the dressing room, and add a crumpled index card of rehearsed small talk beside the mask."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2018",
+   "lane": "speak",
+   "t": "The archive answers",
+   "d": "Historian Herwig Czech publishes a study of Asperger's personnel files and more than a thousand case files. The story of Asperger as a protector does not survive the evidence.",
+   "src": [
+    [
+     "Czech (2018)",
+     "https://molecularautism.biomedcentral.com/articles/10.1186/s13229-018-0208-6"
+    ]
+   ],
+   "scene": {
+    "img": "desk-papers",
+    "lab": "Scene · Reading the files",
+    "cap": "Going through the record, page by page.",
+    "art": "Art direction: a Vienna archive reading room with grey case-file boxes, white gloves, and a reading lamp."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2020",
+   "lane": "speak",
+   "t": "Five girls, in English at last",
+   "d": "Charlotte Simmonds publishes the first English translation of Sukhareva's 1927 paper on girls, 93 years after it was written.",
+   "src": [
+    [
+     "Simmonds (2020)",
+     "https://openaccess.wgtn.ac.nz/articles/thesis/G_E_Sukhareva_s_place_in_the_history_of_autism_research_Context_reception_translation/17136701"
+    ]
+   ],
+   "scene": {
+    "img": "desk-journal",
+    "lab": "Scene · Ninety-three years later",
+    "cap": "Pen down, looking up from the page, for the reader who finally got to read it.",
+    "art": "Art direction: a 1927 Russian journal open beside a 2020 printout of the translation, with a Moscow postcard propped against the lamp."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2020",
+   "sub": "Mar 4",
+   "lane": "speak",
+   "t": "The FDA bans the shock device",
+   "d": "The FDA finalizes a ban on electrical stimulation devices for self-injurious or aggressive behavior. A federal appeals court vacates it in July 2021. Congress grants the authority in 2022, and a new ban is proposed in March 2024.",
+   "src": [
+    [
+     "FDA (2024)",
+     "https://www.fda.gov/medical-devices/medical-devices-news-and-events/fda-proposes-new-ban-electrical-stimulation-devices-self-injurious-or-aggressive-behavior"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2022",
+   "lane": "cut",
+   "t": "Sterilization is still legal",
+   "d": "The National Women's Law Center finds that 31 states and D.C. still allow forced sterilization of disabled people, 17 of them for children.",
+   "src": [
+    [
+     "NWLC",
+     "https://nwlc.org/press-release/new-nwlc-report-finds-over-30-states-legally-allow-forced-sterilization/"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2024",
+   "lane": "speak",
+   "t": "Who coined neurodiversity",
+   "d": "Autistic scholars publish a correction showing that the concept was developed collectively by neurodivergent people, not by a single author.",
+   "src": [
+    [
+     "Botha et al. (2024)",
+     "https://journals.sagepub.com/doi/10.1177/13623613241237871"
+    ]
+   ],
+   "scene": {
+    "img": "idea-notebook",
+    "lab": "Scene · Many hands, one idea",
+    "cap": "Holding up the sketchbook, an idea with many parents.",
+    "art": "Art direction: a collage of 1990s email-list printouts, forum handles, and conference badges pinned around the notebook."
+   }
+  },
+  {
+   "era": "present",
+   "y": "2025",
+   "sub": "Apr 16",
+   "lane": "measure",
+   "t": "“They'll never pay taxes”",
+   "d": "A day after the CDC reports that 1 in 31 eight-year-olds has been identified with autism, HHS Secretary Robert F. Kennedy Jr. says autistic children “will never pay taxes, they'll never hold a job.” It is the parish ledger's question, asked from a federal podium.",
+   "src": [
+    [
+     "Mother Jones",
+     "https://www.motherjones.com/politics/2025/04/rfk-kennedy-hhs-autism-diagnoses-poet/"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2025",
+   "sub": "Jul 24",
+   "lane": "remove",
+   "t": "Executive Order 14321",
+   "d": "A federal order encourages civil commitment of people with mental illness living on the streets and calls long-term institutional settings “humane treatment.”",
+   "src": [
+    [
+     "ABA Commission on Disability Rights",
+     "https://www.americanbar.org/groups/diversity/disabilityrights/news/trumps-executive-order/"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2025",
+   "sub": "Sep 22",
+   "lane": "measure",
+   "t": "The Tylenol announcement",
+   "d": "The White House announces label changes linking prenatal acetaminophen to autism. A Swedish sibling study of 2.48 million children in JAMA had already found no link in 2024, and a Hong Kong sibling study in JAMA Internal Medicine found none in June 2026.",
+   "fix": true,
+   "src": [
+    [
+     "NPR via Michigan Public",
+     "https://www.michiganpublic.org/2025-09-22/trump-blames-tylenol-for-autism-science-doesnt-back-him-up"
+    ],
+    [
+     "Ahlqvist et al., JAMA (2024)",
+     "https://jamanetwork.com/journals/jama/fullarticle/2817406"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2025",
+   "sub": "Nov 19",
+   "lane": "measure",
+   "t": "The CDC page is rewritten",
+   "d": "The CDC's “Autism and Vaccines” page is rewritten to say that the claim “vaccines do not cause autism” is not evidence-based.",
+   "src": [
+    [
+     "CDC",
+     "https://www.cdc.gov/vaccine-safety/about/autism.html"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2026",
+   "sub": "Jun 18",
+   "lane": "remove",
+   "t": "The integration mandate, argued away",
+   "d": "A Justice Department legal opinion asserts that neither Section 504 nor the ADA's Title II imposes an integration mandate on states, the protection Lois Curtis and Elaine Wilson won in 1999.",
+   "src": [
+    [
+     "National Federation of the Blind",
+     "https://nfb.org/node/16579"
+    ]
+   ]
+  },
+  {
+   "era": "present",
+   "y": "2026",
+   "sub": "Nov",
+   "lane": "kill",
+   "t": "The rule that keeps not arriving",
+   "d": "The FDA's latest target date for a final ban on skin-shock devices. One facility still uses them.",
+   "src": [
+    [
+     "Liam O'Dell (2026)",
+     "https://liamodell.com/2026/06/01/us-food-and-drug-administration-fda-final-rule-electrical-stimulation-devices-stop-the-shock-ban-judge-rotenberg-center-jrc-massachusetts-autism/"
+    ]
+   ]
+  }
+ ]
+}
